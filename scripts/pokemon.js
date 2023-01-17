@@ -26,7 +26,7 @@ function fillColor(number) {
     else return "#00ff00";
 }
 
-loadJSON("../datas/pokedex.json").then(pokedex => {
+loadJSON("./datas/pokedex.json").then(pokedex => {
     let pokemon;
 
     for (const index in pokedex) {
@@ -52,12 +52,12 @@ loadJSON("../datas/pokedex.json").then(pokedex => {
 
     const image = document.querySelector("#image");
     const img = document.createElement("img");
-    img.src = `../images/pokemon/${pokemon.number.toString().padStart(3, "0")}.png`;
+    img.src = `./images/pokemon/${pokemon.number.toString().padStart(3, "0")}.png`;
     image.appendChild(img);
 
     for (const type of pokemon.types) {
         const typeImage = document.createElement("img");
-        typeImage.src = `../images/types/${type.toLowerCase()}_icon.png`;
+        typeImage.src = `./images/types/${type.toLowerCase()}_icon.png`;
         
         document.querySelector("#types").appendChild(typeImage);
     }
