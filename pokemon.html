@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>National Pokédex</title>
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/pokemon.css">
+        <script src="./scripts/pokemon.js" type="module"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="header">
+            <div id="pokeball">
+                <img src="./images/pokeball.png">
+            </div>
+            <div id="name">Missing No</div>
+            <div id="number">#000</div>
+            <div id="image"></div>
+            <div id="types"></div>
+            <div id="forms">
+                <select>
+                    <option value="stardard">Stardard</option>
+                    <option value="shiny">Shiny</option>
+                </select>
+            </div>
+        </div>
+        <div id="infos">
+            <div id="nav">
+                <div class="tab active" data-tab="description">Descrição</div>
+                <div class="tab" data-tab="about">Sobre</div>
+                <div class="tab" data-tab="base-stats">Estatísticas</div>
+                <div class="tab" data-tab="evolution">Evolução</div>
+                <div class="tab" data-tab="moves">Movimentos</div>
+                <div class="tab" data-tab="breeding">Reprodução</div>
+            </div>
+            <div id="description"></div>
+            <div id="about" style="display:none"></div>
+            <div id="base-stats" style="display:none">
+                <div class="stats">
+                    <div class="name-stats">HP</div>
+                    <div class="bar-stats" id="hp">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="name-stats">Attack</div>
+                    <div class="bar-stats" id="attack">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="name-stats">Defense</div>
+                    <div class="bar-stats" id="defense">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="name-stats">Special Attack</div>
+                    <div class="bar-stats" id="special-attack">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="name-stats">Special Defense</div>
+                    <div class="bar-stats" id="special-defense">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="name-stats">Speed</div>
+                    <div class="bar-stats" id="speed">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="evolution" style="display:none"></div>
+            <div id="moves" style="display:none"></div>
+            <div id="breeding" style="display:none"></div>
+        </div>
+    </body>
+</html>

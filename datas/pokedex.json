@@ -1,0 +1,327 @@
+{
+    "bulbasaur": {
+        "number": 1,
+        "name": "Bulbasaur",
+        "types": ["Grass", "Poison"],
+        "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+        "genderRatio": {"M": 0.875, "F": 0.125},
+        "baseStats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 49,
+            "spa": 65,
+            "spd": 65,
+            "spe": 45
+        },
+        "abilities": {"0": "Overgrow", "H": "Chlorophyll"},
+        "height": 0.7,
+        "weight": 6.9,
+        "color": "Green",
+        "evolutions": ["Ivysaur"],
+        "eggGroups": ["Monster", "Grass"]
+    },
+    "ivysaur": {
+        "number": 2,
+        "name": "Ivysaur",
+        "types": ["Grass", "Poison"],
+        "description": "",
+        "baseStats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 63,
+            "spa": 80,
+            "spd": 80,
+            "spe": 60
+        }
+    },
+    "venusaur": {
+        "number": 3,
+        "name": "Venusaur",
+        "types": ["Grass", "Poison"],
+        "description": "",
+        "baseStats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 83,
+            "spa": 100,
+            "spd": 100,
+            "spe": 80
+        }
+    },
+    "charmander": {
+        "name": "Charmander",
+        "number": 4,
+        "types": ["Fire"],
+        "description": ""
+    },
+    "charizard": {
+        "number": 6,
+        "name": "Charizard",
+        "types": ["Fire", "Flying"],
+        "description": "Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.<br>Suas asas podem transportar este Pokémon até uma altitude de 1400 metros.",
+        "baseStats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spa": 109,
+            "spd": 85,
+            "spe": 100
+        }
+    },
+    "squirtle": {
+        "number": 7,
+        "name": "Squirtle",
+        "types": ["Water"],
+        "description": ""
+    },
+    "blastoise": {
+        "number": 9,
+        "name": "Blastoise",
+        "types": ["Water"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 79,
+            "atk": 83,
+            "def": 100,
+            "spa": 85,
+            "spd": 105,
+            "spe": 78
+        }
+    },
+    "caterpie": {
+        "number": 10,
+        "name": "Caterpie",
+        "types": ["Bug"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 35,
+            "spa": 20,
+            "spd": 20,
+            "spe": 45
+        }
+    },
+    "butterfree": {
+        "number": 12,
+        "name": "Butterfree",
+        "types": ["Bug", "Flying"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 50,
+            "spa": 80,
+            "spd": 80,
+            "spe": 70
+        }
+    },
+    "beedrill": {
+        "number": 15,
+        "name": "Beedrill",
+        "types": ["Bug", "Poison"]
+    },
+    "pidgey": {
+        "number": 16,
+        "name": "Pidgey",
+        "types": ["Normal", "Flying"]
+    },
+    "pikachu": {
+        "number": 25,
+        "name": "Pikachu",
+        "types": ["Electric"]
+    },
+    "sandshrew": {
+        "number": 27,
+        "name": "Sandshrew",
+        "types": ["Ground"]
+    },
+    "clefairy": {
+        "number": 35,
+        "name": "Clefairy",
+        "types": ["Fairy"]
+    },
+    "mankey": {
+        "number": 56,
+        "name": "Mankey",
+        "types": ["Fighting"]
+    },
+    "abra": {
+        "number": 63,
+        "name": "Abra",
+        "types": ["Psychic"]
+    },
+    "geodude": {
+        "number": 74,
+        "name": "Geodude",
+        "types": ["Rock", "Ground"]
+    },
+    "magnemite": {
+        "number": 81,
+        "name": "Magnemite",
+        "types": ["Electric", "Steel"]
+    },
+    "dewgong": {
+        "number": 87,
+        "name": "Dewgong",
+        "types": ["Water", "Ice"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 90,
+            "atk": 70,
+            "def": 80,
+            "spa": 70,
+            "spd": 95,
+            "spe": 70
+        }
+    },
+    "gastly": {
+        "number": 92,
+        "name": "Gastly",
+        "types": ["Ghost", "Poison"]
+    },
+    "chansey": {
+        "number": 113,
+        "name": "Chansey",
+        "types": ["Normal"],
+        "description": "",
+        "baseStats": {
+            "hp": 250,
+            "atk": 5,
+            "def": 5,
+            "spa": 35,
+            "spd": 105,
+            "spe": 50
+        }
+    },
+    "tangela": {
+        "number": 114,
+        "name": "Tangela",
+        "types": ["Grass"],
+        "description": "",
+        "baseStats": {
+            "hp": 65,
+            "atk": 55,
+            "def": 115,
+            "spa": 100,
+            "spd": 40,
+            "spe": 60
+        }
+    },
+    "magikarp": {
+        "number": 129,
+        "name": "Magikarp",
+        "types": ["Water"],
+        "description": "",
+        "baseStats": {
+            "hp": 20,
+            "atk": 10,
+            "def": 55,
+            "spa": 15,
+            "spd": 20,
+            "spe": 80
+        }
+    },
+    "ditto": {
+        "number": 132,
+        "name": "Ditto",
+        "types": ["Normal"],
+        "description": ""
+    },
+    "articuno": {
+        "number": 144,
+        "name": "Articuno",
+        "types": ["Ice", "Flying"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 100,
+            "spa": 95,
+            "spd": 125,
+            "spe": 85
+        }
+    },
+    "dratini": {
+        "number": 147,
+        "name": "Dratini",
+        "types": ["Dragon"],
+        "description": ""
+    },
+    "dragonite": {
+        "number": 149,
+        "name": "Dragonite",
+        "types": ["Dragon", "Flying"],
+        "description": "",
+        "baseStats": {
+            "hp": 91,
+            "atk": 134,
+            "def": 95,
+            "spa": 100,
+            "spd": 100,
+            "spe": 80
+        }
+    },
+    "mewtwo": {
+        "number": 150,
+        "name": "Mewtwo",
+        "types": ["Psychic"],
+        "description": "",
+        "baseStats": {
+            "hp": 106,
+            "atk": 110,
+            "def": 90,
+            "spa": 154,
+            "spd": 90,
+            "spe": 130
+        }
+    },
+    "mew": {
+        "number": 151,
+        "name": "Mew",
+        "types": ["Psychic"],
+        "description": "",
+        "baseStats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    },
+    "umbreon": {
+        "number": 197,
+        "name": "Umbreon",
+        "types": ["Dark"],
+        "description": ""
+    },
+    "skarmory": {
+        "number": 227,
+        "name": "Skarmory",
+        "types": ["Steel", "Flying"],
+        "description": "Teste",
+        "baseStats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 140,
+            "spa": 40,
+            "spd": 70,
+            "spe": 70
+        }
+    },
+    "arceus": {
+        "number": 493,
+        "name": "Arceus",
+        "types": ["Normal"],
+        "description": "",
+        "baseStats": {
+            "hp": 120,
+            "atk": 120,
+            "def": 120,
+            "spa": 120,
+            "spd": 120,
+            "spe": 120
+        }
+    }
+}

@@ -1,0 +1,60 @@
+header {
+    padding: 5px 0 8px;
+    background: linear-gradient(#e93031, #901020);
+    border-bottom: solid 3px #000;
+}
+
+header .title {
+    font-family: Verdana;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 1px black;
+}
+
+#detective {
+    position: fixed;
+    bottom: -20px;
+    left: -67px;
+    transform: rotate(25deg);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#detective:hover {
+    left: -25px;
+    transform: rotate(50deg);
+}
+
+#detective img {
+    width: 100px;
+}
+
+#main-content {
+    padding: 10px;
+    background-color: #EEE;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    min-width: 120px;
+    width: calc(11.11% - 30px);
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: #fff;
+}
+
+.card img {
+    width: 100%;
+    filter: drop-shadow(1px 0 1px #fff) drop-shadow(-1px 0 1px #fff) drop-shadow(0 1px 1px #fff) drop-shadow(0 -1px 1px #fff);
+}

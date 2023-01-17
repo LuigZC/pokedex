@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+:root {
+    --bug: #a0a028;
+    --dark: #4f4747;
+    --dragon: #576fbd;
+    --electric: #e0bd28;
+    --fairy: #e28de2;
+    --fighting: #e59121;
+    --fire: #e5613e;
+    --flying: #74abd1;
+    --ghost: #6f4570;
+    --grass: #439937;
+    --ground: #a5733c;
+    --ice: #47c9c9;
+    --normal: #828282;
+    --poison: #9454cc;
+    --psychic: #ea6c8d;
+    --rock: #aaa581;
+    --steel: #6badc9;
+    --water: #309ae2;
+
+    --shadow: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, .35));
+}
+
+#header.bug,
+.card.bug:hover {
+    background: var(--shadow), var(--bug);
+}
+
+#header.bug.flying,
+.card.bug.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--bug) 40%, var(--flying) 60%)
+}
+
+#header.bug.poison,
+.card.bug.poison:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--bug) 40%, var(--poison) 60%)
+}
+
+#header.dark,
+.card.dark:hover {
+    background: var(--shadow), var(--dark);
+}
+
+#header.dragon,
+.card.dragon:hover {
+    background: var(--shadow), var(--dragon);
+}
+
+#header.dragon.flying,
+.card.dragon.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--dragon) 40%, var(--flying) 60%)
+}
+
+#header.electric,
+.card.electric:hover {
+    background: var(--shadow), var(--electric);
+}
+
+#header.electric.steel,
+.card.electric.steel:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--electric) 40%, var(--steel) 60%)
+}
+
+#header.fairy,
+.card.fairy:hover {
+    background: var(--shadow), var(--fairy);
+}
+
+#header.fighting,
+.card.fighting:hover {
+    background: var(--shadow), var(--fighting);
+}
+
+#header.fire,
+.card.fire:hover {
+    background: var(--shadow), var(--fire);
+}
+
+#header.fire.flying,
+.card.fire.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--fire) 40%, var(--flying) 60%)
+}
+
+#header.ghost.poison,
+.card.ghost.poison:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--ghost) 40%, var(--poison) 60%)
+}
+
+#header.grass,
+.card.grass:hover {
+    background: var(--shadow), var(--grass);
+}
+
+#header.grass.poison,
+.card.grass.poison:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--grass) 40%, var(--poison) 60%);
+}
+
+#header.ground,
+.card.ground:hover {
+    background: var(--shadow), var(--ground);
+}
+
+#header.ice.flying,
+.card.ice.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--ice) 40%, var(--flying) 60%)
+}
+
+#header.normal,
+.card.normal:hover {
+    background: var(--shadow), var(--normal);
+}
+
+#header.normal.flying,
+.card.normal.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--normal) 40%, var(--flying) 60%)
+}
+
+#header.psychic,
+.card.psychic:hover {
+    background: var(--shadow), var(--psychic);
+}
+
+#header.rock.ground,
+.card.rock.ground:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--rock) 40%, var(--ground) 60%);
+}
+
+#header.steel.flying,
+.card.steel.flying:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--steel) 40%, var(--flying) 60%)
+}
+
+#header.water,
+.card.water:hover {
+    background: var(--shadow), var(--water);
+}
+
+#header.water.ice,
+.card.water.ice:hover {
+    background: var(--shadow), linear-gradient(135deg, var(--water) 40%, var(--ice) 60%);
+}

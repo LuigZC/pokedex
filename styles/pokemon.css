@@ -1,0 +1,139 @@
+#header {
+    position: relative;
+    overflow: hidden;
+}
+
+#header #pokeball {
+    margin: -80px -100px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.2;
+    transform: rotate(25deg);
+}
+
+#header #pokeball img {
+    width: 400px;
+}
+
+#header #name {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 0.5em 0.5em;
+    position: absolute;
+}
+
+#header #number {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.5em 0.5em;
+    position: absolute;
+    right: 0;
+}
+
+#header #image {
+    padding-top: 2.5em;
+    padding-bottom: 4em;
+}
+
+#header #image img {
+    margin: auto;
+    display: block;
+    width: 360px;
+    max-width: 100%;
+    filter: drop-shadow(1px 0 1px #fff) drop-shadow(-1px 0 1px #fff) drop-shadow(0 1px 1px #fff) drop-shadow(0 -1px 1px #fff);
+}
+
+#header #types {
+    margin: 3em 1em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#header #types img {
+    width: 55px;
+    margin: 0 7px;
+    filter: drop-shadow(1px 0 1px #fff) drop-shadow(-1px 0 1px #fff) drop-shadow(0 1px 1px #fff) drop-shadow(0 -1px 1px #fff);
+}
+
+#header #forms {
+    margin: 3em 1em;
+    position: absolute;
+    bottom: 0;
+}
+
+#header #forms select {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
+
+#header #forms select:focus {
+    outline: none;
+}
+
+#header #forms option {
+    color: #000;
+    font-size: 20px;
+}
+
+#infos {
+    background-color: #fff;
+}
+
+#infos #nav {
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -30px;
+}
+
+#infos #nav .tab {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 10px 2px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#infos #nav .tab:not(.active) {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+#infos #nav .tab:not(.active):hover {
+    background-color: #ddd;
+}
+
+#infos > div:not(#nav) {
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infos #base-stats .stats {
+    margin: 15px 0;
+}
+
+#infos #base-stats .stats .name-stats {
+    width: 130px;
+    display: inline-block;
+    padding: 7px 0 5px;
+}
+
+#infos #base-stats .stats .bar-stats {
+    background-color: #ddd;
+    width: calc(100% - 135px);
+    float: right;
+    border-radius: 15px;
+}
+
+#infos #base-stats .stats .bar-stats .fill {
+    height: 30px;
+    border-radius: 15px;
+}
